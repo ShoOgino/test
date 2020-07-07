@@ -118,7 +118,7 @@ class Data:
                     continue
                 LOC=LOC+1
         return LOC
-    def calculateLOCtest0(self):
+    def calculateLOCtest10(self):
         LOC=0
         with open(self.pathFile, "r") as fr:
             lines=fr.read().splitlines()
