@@ -96,3 +96,14 @@ class Data:
                     continue
                 LOC=LOC+1
         return LOC
+    def calculateLOCtest(self):
+        LOC=0
+        with open(self.pathFile, "r") as fr:
+            lines=fr.read().splitlines()
+            for i, line in enumerate(lines):
+                #patternLineIgnore="^(\s*{\s*|\s*|\s*//.*|\s*case.*)$"
+                patternLineIgnore="^(\s*|\s*//.*)$"
+                if re.match(patternLineIgnore,line):
+                    continue
+                LOC=LOC+1
+        return LOC
