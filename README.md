@@ -18,6 +18,7 @@
 | kusuhpc     | 計算用(mem)    | Windows 10   | Fujitsu RX2530 M2       | 機器室ラック     |        |           | 研究科レンタル |
 | kvasir      | 計算用(CPU)    | Ubuntu       | 有馬BTO                 | 機器室フルタワー |        |           |                  |
 | thor        | 計算用(GPU)    | Ubuntu 18.04 | HP Z840[^specThor]      | 機器室フルタワー |        | 公開鍵, pw | ssh接続 |
+
 [^specThor]: CPU:Xeon(R) E5-2620 v4 GPU:{Tesla K40c, Quadro K2200} mem:128GB
 
 ### 旧サーバ
